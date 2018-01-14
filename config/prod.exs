@@ -14,7 +14,7 @@ use Mix.Config
 
 config :socialtheorymgmt, Socialtheorymgmt.Endpoint,
   http: [port: 8888],
-  url: [host: "example.com", port: 80],
+  url: [host: "socialtheorymgmt.com", port: 80],
   cache_static_manifest: "priv/static/manifest.json"
 # ...
 config :phoenix, :serve_endpoints, true
