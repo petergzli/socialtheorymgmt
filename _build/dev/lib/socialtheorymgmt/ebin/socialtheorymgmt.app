@@ -1,9 +1,5 @@
 {application,socialtheorymgmt,
-             [{applications,[kernel,stdlib,elixir,logger,gettext,
-                             phoenix_pubsub,cowboy,phoenix_html,phoenix,
-                             phoenix_live_reload,postgrex,distillery,edeliver,
-                             phoenix_ecto]},
-              {description,"socialtheorymgmt"},
+             [{description,"socialtheorymgmt"},
               {modules,['Elixir.Socialtheorymgmt',
                         'Elixir.Socialtheorymgmt.Endpoint',
                         'Elixir.Socialtheorymgmt.ErrorHelpers',
@@ -18,6 +14,8 @@
                         'Elixir.Socialtheorymgmt.UserSocket',
                         'Elixir.Socialtheorymgmt.Web']},
               {registered,[]},
-              {vsn,"0.0.1"},
+              {vsn,"0.0.4"},
               {mod,{'Elixir.Socialtheorymgmt',[]}},
-              {extra_applications,[logger]}]}.
+              {extra_applications,[logger]},
+              {applications,[kernel,stdlib,elixir,logger,phoenix,phoenix_html,
+                             cowboy,edeliver,postgrex,ecto,gettext]}]}.
