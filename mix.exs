@@ -20,7 +20,8 @@ defmodule Socialtheorymgmt.Mixfile do
   def application do
     [
       mod: {Socialtheorymgmt, []},
-      extra_applications: [:logger]
+      extra_applications: [:logger],
+      applications: [:phoenix, :phoenix_html, :cowboy, :edeliver, :postgrex, :ecto, :gettext]
     ]
   end
 
